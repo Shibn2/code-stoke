@@ -1,0 +1,20 @@
+@keyframes shapeshift {
+  0% {
+    border-radius: 0%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
+.parent {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(226, 222, 222);
+  .child {
+    color: red;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    animation: shapeshift alternate 2s infinite;
+  }
+}
