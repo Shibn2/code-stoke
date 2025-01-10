@@ -62,4 +62,4 @@ class Child extends Component {
   }
 }
 
-export default { ReactLifeCycle2 };
+export { ReactLifeCycle2 };
